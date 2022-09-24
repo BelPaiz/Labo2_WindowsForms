@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Saludo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Saludo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Saludo.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Saludo/1.0.0": {
+      "type": "project",
+      "path": "../Saludo/Saludo.csproj",
+      "msbuildProject": "../Saludo/Saludo.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Saludo >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\belen\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Usuarios\\belen\\Documentos\\PROGRA Y LABO 2\\EjercicioI01_HolaWindowsForms\\EjercicioI01_HolaWindowsForms.csproj",
+      "projectName": "EjercicioI01_HolaWindowsForms",
+      "projectPath": "D:\\Usuarios\\belen\\Documentos\\PROGRA Y LABO 2\\EjercicioI01_HolaWindowsForms\\EjercicioI01_HolaWindowsForms.csproj",
+      "packagesPath": "C:\\Users\\belen\\.nuget\\packages\\",
+      "outputPath": "D:\\Usuarios\\belen\\Documentos\\PROGRA Y LABO 2\\EjercicioI01_HolaWindowsForms\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\belen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "D:\\Usuarios\\belen\\Documentos\\PROGRA Y LABO 2\\Saludo\\Saludo.csproj": {
+              "projectPath": "D:\\Usuarios\\belen\\Documentos\\PROGRA Y LABO 2\\Saludo\\Saludo.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
